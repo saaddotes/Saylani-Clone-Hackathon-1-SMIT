@@ -1,0 +1,63 @@
+* {
+    transition: 0.25s;
+}
+.services {
+    display: none;
+}
+
+.bg-success {
+    background-color: #8dc63f !important;
+}
+.text-success {
+    color: #8dc63f !important;
+}
+
+footer {
+    background-image: url(images/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+
+
+.bg-success-subtle {
+    background-color: #f0fcdb !important;
+}
+
+a.active {
+    color: #8dc63f !important;
+}
+
+a.nav-link:hover {
+    border-bottom: 1px solid #8dc63f !important;
+
+}
+
+
+
+.bg-dark-subtle {
+    background-color: #eee;
+}
+
+.myCard1 {
+    background-image: url(images/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+    height: 300px;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+.hero-section {
+    background-image: url(images/carousal_background.d77d94e41c5a71ae581f.png);
+}
+
+
+@media screen and (min-width:600px) {
+    .services {
+        display: block;
+    }
+
+    .m-100 {
+        margin-left: 140px;
+    }
+
+}

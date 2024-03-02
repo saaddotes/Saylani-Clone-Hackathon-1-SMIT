@@ -12,26 +12,30 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-around bg-dark-subtle py-1 align-items-center">
-        <div class="d-flex justify-content-between gap-5">
-            <div>
-                <i class="fa-regular fa-envelope"></i>
-                <span>info@saylaniWelfare.com</span>
+    <header class="bg-dark-subtle">
+        <div class="d-flex container justify-content-between align-items-center">
+            <div class="d-flex gap-3">
+                <div>
+                    <!-- Todo : change into anchor tag mailto -->
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>info@saylaniWelfare.com</span>
+                </div>
+                <div>
+                    <!-- Todo : change into anchor tag phone -->
+                    <i class="fa-solid fa-phone"></i>
+                    <span>021-111-729-589</span>
+                </div>
             </div>
-            <div>
-                <i class="fa-solid fa-phone"></i>
-                <span>021-111-729-589</span>
-            </div>
-        </div>
 
-        <div>
-            <button class="btn bg-white">English</button>
+            <div>
+                <button class="btn bg-white">English</button>
+            </div>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="#">
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
                 <img src="images/logo_saylaniwelfare.22bf709605809177256c.png" width="200" alt="logo">
             </a>
 
@@ -41,8 +45,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-100 mb-2 mb-lg-0 w-75 justify-content-around">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-around gap-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -64,15 +68,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Overseas Doners</a>
                     </li>
-
-                    <button class="btn btn-primary text-white ms-5">
-                        DONATE NOW
-                    </button>
-                    <button class="btn bg-success text-white ms-1">
-                        BE A SPONSOR
-                    </button>
                 </ul>
+
             </div>
+
+            <div>
+                <button class="btn btn-primary text-white ms-5">
+                    DONATE NOW
+                </button>
+                <button class="btn bg-success text-white ms-1">
+                    BE A SPONSOR
+                </button>
+            </div>
+
         </div>
     </nav>
 
@@ -160,7 +168,8 @@
             <div class="container mt-5">
                 <div class="row gy-2">
                     <div class="col-lg-4">
-                        <div class="myCard1 p-3 d-flex flex-column justify-content-end rounded">
+                        <div class="myCard card-1 p-3 d-flex flex-column justify-content-end rounded"></div>
+                        <div class="position-relative bottom-50 m-auto">
                             <h3 class="text-white">
                                 Daily Food
                             </h3>
@@ -170,7 +179,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="myCard1 p-3 d-flex flex-column justify-content-end rounded">
+                        <div class="myCard card-2 p-3 d-flex flex-column justify-content-end rounded"></div>
+                        <div class="position-relative bottom-50 m-auto">
                             <h3 class="text-white">
                                 Daily Food
                             </h3>
@@ -180,7 +190,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="myCard1 p-3 d-flex flex-column justify-content-end rounded">
+                        <div class="myCard card-3 p-3 d-flex flex-column justify-content-end rounded"></div>
+                        <div class="position-relative bottom-50 m-auto">
                             <h3 class="text-white">
                                 Daily Food
                             </h3>
@@ -189,6 +200,7 @@
                             </button>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -199,6 +211,12 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <img src="images/logo_saylaniwelfare.22bf709605809177256c.png" width="300" alt="">
+                        <div class="d-flex gap-3 mt-2 ms-5">
+                            <div><img class="rounded" src="images/download (1).png" alt="" width="40"></div>
+                            <div><img class="rounded" src="images/download.png" alt="" width="40"></div>
+                            <div><img class="rounded" src="images/download (2).png" alt="" width="40"></div>
+                            <div><img class="rounded" src="images/download (1).png" alt="" width="40"></div>
+                        </div>
                     </div>
                     <div class="col-lg-2">
                         <ul class="list-unstyled">
@@ -220,7 +238,7 @@
 
                     </div>
                     <div class="col-lg-4">
-                        <h1 class="text-white fs-5" >Contact</h1>
+                        <h1 class="text-white fs-5">Contact</h1>
                         <span class="text-white ">A-25, Bahadurabad Chowrangi Karachi, Pakistan
                             <br>
                             UAN: 111-729-526 (+0092-213)4130786-90
@@ -232,7 +250,21 @@
                             UK NO (+44)115 970 6256</span>
                     </div>
                 </div>
+                <hr class="text-white opacity-5">
+            <div class="text-center">
+                <img src="images/acca-approved-trainee-development-gold-logo-dark_dbuqdu.png" alt="" width="200">
             </div>
+            <hr class="text-white opacity-5">
+            <div class="text-center">
+                <span class="text-white">IP address data powered by <a href="#">Ipinfo</a></span>
+            </div>
+            <hr class="text-white opacity-5">
+            <div class="text-center">
+                <span class="text-white">Copyright 2024 by Sayani Welfare Int Trust</span>
+            </div>
+            </div>
+            
+
         </footer>
 
 

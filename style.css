@@ -1,6 +1,7 @@
 * {
     transition: 0.25s;
 }
+
 .services {
     display: none;
 }
@@ -8,16 +9,21 @@
 .bg-success {
     background-color: #8dc63f !important;
 }
+
 .text-success {
     color: #8dc63f !important;
 }
 
 footer {
     background-image: url(images/upcoming_background.a669f19ea2aee3c7e10f.png);
-    background-size:contain ;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 0;
 }
 
+.opacity-5 {
+    opacity: 0.5 !important;
+}
 
 
 .bg-success-subtle {
@@ -39,11 +45,28 @@ a.nav-link:hover {
     background-color: #eee;
 }
 
-.myCard1 {
+.card-1 {
+    background-image: url(images/c6fdf6af-51d5-4388-97ef-6cf10eb73aca.jpg);
+}
+
+.card-2 {
     background-image: url(images/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+}
+
+.card-3 {
+    background-image: url(images/8517e89c-e41d-4868-8c92-3bbc0d1f9339.jpg);
+}
+
+.myCard {
+    /* background-size:contain; */
     height: 300px;
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
+    opacity: 0.5;
+    filter: brightness(0.9);
+}
+
+.myCard:hover {
+    opacity: 1;
+    filter: brightness(1);
 }
 
 .hero-section {

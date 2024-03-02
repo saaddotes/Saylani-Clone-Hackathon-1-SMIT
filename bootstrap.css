@@ -7303,7 +7303,8 @@ fieldset:disabled .btn {
 }
 
 .bottom-50 {
-    bottom: 50% !important
+    bottom: 25% !important;
+    width: 95%;
 }
 
 .bottom-100 {
@@ -11113,8 +11114,9 @@ fieldset:disabled .btn {
     }
 
     .gap-xxl-1 {
-        gap: .25rem !important  filter: blur(8px);
-  -webkit-filter: blur(8px);
+        gap: .25rem !important;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
     }
 
     .gap-xxl-2 {
